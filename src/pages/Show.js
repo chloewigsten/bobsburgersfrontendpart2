@@ -6,7 +6,7 @@ const BASE_URL = "https://bobsburgersbackendreact.herokuapp.com/characters";
 function ShowPage(props) {
     const [character, setCharacter] = useState([]);
     const { id } = useParams()
-    const URL = `${BASE_URL}characters/${id}`
+    const URL = `${BASE_URL}/${id}`
 
     const getCharacter = async () => {
 
