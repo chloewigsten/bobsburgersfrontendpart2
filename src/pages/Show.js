@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
-const BASE_URL = "https://bobsburgersbackendreact.herokuapp.com/";
+const BASE_URL = "https://bobsburgersbackendreact.herokuapp.com/characters";
 
 function ShowPage(props) {
     const [character, setCharacter] = useState([]);
