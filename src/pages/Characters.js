@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Characters(props) {
     const [characters, setCharacters] = useState(null);
-    const BASE_URL = 'https://bobsburgersbackendreact.herokuapp.com/'
+    const BASE_URL = 'https://bobsburgersbackendreact.herokuapp.com/characters'
 
     const getCharacters = async () => {
         try {
